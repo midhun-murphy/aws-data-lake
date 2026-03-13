@@ -1,5 +1,3 @@
-# aws-data-lake
-
 # AWS Data Lake Pipeline (Bronze–Silver–Gold Architecture)
 
 ## Project Overview
