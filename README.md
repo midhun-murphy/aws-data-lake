@@ -18,15 +18,7 @@ The solution uses a layered Medallion Architecture approach with Bronze, Silver,
 
 The following architecture demonstrates the end-to-end AWS Data Lake pipeline using Medallion Architecture principles.
 
-![AWS Data Lake Architecture](architecture/image.png)
-
-## Pipeline Explanation
-
-1. Raw CSV datasets are ingested into Amazon S3 Bronze layer  
-2. PySpark ETL jobs process the raw datasets  
-3. Cleaned and transformed data is stored in Silver layer  
-4. Aggregated analytics-ready datasets are stored in Gold layer  
-5. Amazon Athena performs serverless analytical querying  
+![AWS Data Lake Architecture](architecture/image.png)  
 
 ### 🥉 Bronze Layer
 - Stores raw ingested data
