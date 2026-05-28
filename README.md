@@ -18,7 +18,7 @@ The solution uses a layered Medallion Architecture approach with Bronze, Silver,
 
 The following architecture demonstrates the end-to-end AWS Data Lake pipeline using Medallion Architecture principles.
 
-![AWS Data Lake Architecture](architecture/image.png)  
+![AWS Data Lake Architecture](architecture/architecture-diagram.png)  
 
 ### 🥉 Bronze Layer
 - Stores raw ingested data
